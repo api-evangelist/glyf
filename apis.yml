@@ -1,7 +1,29 @@
 aid: glyf
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/glyf.png
 name: Glyf
-description: Glyf is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Glyf is an AI-powered creative tool for motion designers, studios, and creative
+  teams, backed by Andreessen Horowitz (a16z Speedrun). It transforms 2D animations
+  into stylized 3D with custom textures and effects, enhances live-action footage,
+  and lets creators train bespoke AI models to match their own artistic direction,
+  with exports into After Effects, Nuke, and other compositing pipelines. The product
+  has since been rebranded and now ships as StyleFrame (www.styleframe.ai), a
+  timeline-based, keyframe-driven video-generation platform where creators place
+  keyframes and prompt tracks to control every frame of an animation. As of this
+  enrichment pass, Glyf/StyleFrame is a consumer-facing creative application with no
+  public API, developer documentation, OpenAPI definition, SDK, or machine-readable
+  discovery surface.
 url: https://raw.githubusercontent.com/api-evangelist/glyf/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,42 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-current-name: StyleFrame
+x-rebrand-note: glyf.space now 301-redirects to www.styleframe.ai
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-apis: []
+- AI
+- Creative Tools
+- Motion Design
+- Video Generation
+- Generative AI
+- Design
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/glyf-domain-security.yml
+- type: Website
+  url: https://www.styleframe.ai/
+- type: SignUp
+  url: https://www.styleframe.ai/signin
+- type: Support
+  url: https://www.styleframe.ai/contact
+- type: PrivacyPolicy
+  url: https://www.styleframe.ai/privacy
+- type: TermsOfService
+  url: https://www.styleframe.ai/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/glyfspace
+apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
