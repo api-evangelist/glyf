@@ -69,6 +69,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Pricing
+  url: https://www.styleframe.ai/pricing
+- type: Plans
+  url: plans/glyf-plans-pricing.yml
 - url: https://www.styleframe.ai/blog/
   type: Blog
 - url: https://www.styleframe.ai/blog/rss.xml
