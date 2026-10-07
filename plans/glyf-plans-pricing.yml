@@ -1,0 +1,79 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.styleframe.ai/pricing
+sources:
+- https://www.styleframe.ai/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T112025
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Credit-based subscription tiers for StyleFrame; monthly and annual (-20%) pricing shown. API access
+  only mentioned under Enterprise (contact us). Annual Studio also shows $ 999.
+plan_count: 8
+currency: USD
+plans:
+- name: Free
+  price_text: $ 0 /month
+  price: 0
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 250 Free Credits
+- name: Basic (monthly)
+  price_text: $ 9 /month
+  price: 9
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 1,000 Credits; ~110 Credits / $
+- name: Basic (annual)
+  price_text: $ 7 /month billed annually
+  price: 7
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 1,000 Credits; ~145 Credits / $
+- name: Pro (monthly)
+  price_text: $ 39 /month
+  price: 39
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 5,000 Credits; ~130 Credits / $
+- name: Pro (annual)
+  price_text: $ 30 /month billed annually
+  price: 30
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 5,000 Credits; billed $360 for the year
+- name: Studio (monthly)
+  price_text: $ 99 /month
+  price: 99
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 15,000 Credits; ~150 Credits / $
+- name: Studio (annual)
+  price_text: $ 79 /month billed annually
+  price: 79
+  currency: USD
+  period: month
+  unit: credits
+  included_quota: 15,000 Credits; ~190 Credits / $
+- name: Enterprise
+  price_text: Contact Us
+  period: none
+  included_quota: Unlimited Output Across All Tools; API access; SSO
+rate_limit_statements:
+- Queue Up To 3 Concurrent Jobs
+- Queue Up To 5 Concurrent Jobs
+- we may apply fair use controls if we see unusual or automated activity
