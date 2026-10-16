@@ -1,0 +1,21 @@
+{
+  "repo": "glyf",
+  "feeds": [
+    {
+      "source": "https://www.styleframe.ai/blog/",
+      "feed_url": "https://www.styleframe.ai/blog/rss.xml",
+      "title": "",
+      "saved": 20,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.styleframe.ai/blog/rss.xml",
+      "feed_url": "https://www.styleframe.ai/blog/rss.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    }
+  ],
+  "post_count": 20,
+  "fetched": "2026-10-10T13:15:00Z"
+}
